@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e0f2461-85ac-4465-b6e5-4732294fb6d6" name="Changes" comment="" />
+    <list default="true" id="3e0f2461-85ac-4465-b6e5-4732294fb6d6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../chap01-connection-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap01-connection-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap01-connection-lecture-source/src/main/java/com/ohgiraffers/section01/javaconfig/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap01-connection-lecture-source/src/main/java/com/ohgiraffers/section01/javaconfig/Application.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,9 +25,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2dWdLWbq71AB2KMwEhTPrrr4hbP" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -34,6 +40,7 @@
     "Gradle.chap02-scope-lifecycle-lecture-source [:Application.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710127712302</updated>
       <workItem from="1710127713332" duration="2503000" />
+      <workItem from="1710203735169" duration="33000" />
     </task>
     <servers />
   </component>

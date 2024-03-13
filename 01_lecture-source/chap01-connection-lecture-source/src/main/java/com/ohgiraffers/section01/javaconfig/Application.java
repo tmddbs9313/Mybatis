@@ -26,19 +26,19 @@ public class Application {
         *  UnPooledDataSource : ConnectionPool 미사용*/
 
 
-        Environment environment = new Environment(
+        Environment environment = new Environment(  //환경
                 "dev"       //환경 정보 이름(id)
                 , new JdbcTransactionFactory()      // 트랜젝션 매니저 종류 결정(JDBC or MANAGED)
                 , new PooledDataSource(DRIVER, URL, USER, PASSWORD) // ConnectionPool 사용 유무 (Pooled or UnPooled)
         );  //db접속에 관한환경
 
         /*  필기. 생성한 환경 정보로 MyBatis 설정 객체 생성 */
-        Configuration configuration = new Configuration(environment);
+        Configuration configuration = new Configuration(environment);  //설정에 환경을넣어줌->환경설정
 
         configuration.addMapper(Mapper.class);  //dao 역할.
 
         /* 필기.
-         *   SqlSessionFactory : SqlSession 객체를 생성하기 위한 책토리 역할의 인터페이스
+         *   SqlSessionFactory : SqlSession 객체를 생성하기 위한 팩토리 역할의 인터페이스
          *   SqlSessionFactoryBuilder : SqlSessionFactory 인터페이스 타입의 하위 구현객체를 생성하기 위한 빌드 역할
          *   build() : 환경 설정에 대한 정보를 담고 있는 Configuration 타입의 객체 혹은 외부 설정 파일과 연결 된 Stream
          *             을 매개변수로 전달하면 SqlSessionFactory 인터페이스 타입의 객체를 반환하는 메소드
